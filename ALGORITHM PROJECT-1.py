@@ -1,38 +1,38 @@
-#Constants
-SINGLE_TIME_ENERGY_FEE_INDUSTRIAL = 3.053828
-SINGLE_TIME_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_LOW = 1.912220
-SINGLE_TIME_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_HIGH = 2.828414
-SINGLE_TIME_ENERGY_FEE_RESIDENTIAL_LOW= 0.482187
-SINGLE_TIME_ENERGY_FEE_RESIDENTIAL_HIGH = 1.132271
-SINGLE_TIME_ENERGY_FEE_RESIDENTIAL_FAMILY_MARTYRS = 0.061590 
-SINGLE_TIME_ENERGY_FEE_AGRICULTURAL_ACTIVITIES =1.653096
-SINGLE_TIME_ENERGY_FEE_LIGHTING = 2.595835
-DAYTIME_PERIOD_ENERGY_FEE_INDUSTRY = 3.091933
-DAYTIME_PERIOD_ENERGY_FEE_PUBLIC_PUBLIC_AND_PRIVATE_SECTOR_LOW = 2.858616
-DAYTIME_PERIOD_ENERGY_FEE_PUBLIC_PUBLIC_AND_PRIVATE_SECTOR_HIGH = 2.858616
-DAYTIME_PERIOD_ENERGY_FEE_RESIDENTIAL_LOW = 1.157700
-DAYTIME_PERIOD_ENERGY_FEE_RESIDENTIAL_HIGH = 1.177700
-DAYTIME_PERIOD_ENERGY_FEE_AGRICULTURAL_ACTIVITIES = 1.704822
-PEAK_PERIOD_ENERGY_FEE_INDUSTRIAL = 4.909037
-PEAK_PERIOD_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_LOW = 1.481941
-PEAK_PERIOD_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_HIGH = 4.588843
-PEAK_PERIOD_ENERGY_FEE_RESIDENTIAL_LOW = 2.083645
-PEAK_PERIOD_ENERGY_FEE_RESIDENTIAL_HIGH = 2.083645
-PEAK_PERIOD_ENERGY_FEE_AGRICULTURAL_ACTIVITIES = 2.800325
-NIGHT_PERIOD_ENERGY_FEE_INDUSTRIAL = 1.625171
-NIGHT_PERIOD_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_LOW = 1.481641
-NIGHT_PERIOD_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_HIGH = 1.481941
-NIGHT_PERIOD_ENERGY_FEE_RESIDENTIAL_LOW = 0.417225
-NIGHT_PERIOD_ENERGY_FEE_RESIDENTIAL_HIGH = 0.417225
-NIGHT_PERIOD_ENERGY_FEE_AGRICULTURAL_ACTIVITIES = 0.771882
-UNIT_DISTRIBUTION_FEE_INDUSTRIAL = 0.647998
-UNIT_DISTRIBUTION_FEE_PUBLIC_AND_PRIVATE_SECTOR_LOW = 0.878175
-UNIT_DISTRIBUTION_FEE_PUBLIC_AND_PRIVATE_SECTOR_HIGH = 0.878175
-UNIT_DISTRIBUTION_FEE_RESIDENTIAL_LOW = 0.858883
-UNIT_DISTRIBUTION_FEE_RESIDENTIAL_HIGH = 0.858883
-UNIT_DISTRIBUTION_FEE_RESIDENTIAL_FAMILY_MARTYRS = 0.582521
-UNIT_DISTRIBUTION_FEE_AGRICULTURAL_ACTIVITIES = 0.721579
-UNIT_DISTRIBUTION_FEE_LIGHTING = 0.841099
+#Constants are declared in Turkish Lira(TL)
+SINGLE_TIME_ENERGY_FEE_INDUSTRIAL = 305.3828
+SINGLE_TIME_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_LOW = 191.2220
+SINGLE_TIME_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_HIGH = 282.8414
+SINGLE_TIME_ENERGY_FEE_RESIDENTIAL_LOW= 48.2187
+SINGLE_TIME_ENERGY_FEE_RESIDENTIAL_HIGH = 113.2271
+SINGLE_TIME_ENERGY_FEE_RESIDENTIAL_FAMILY_MARTYRS = 6.1590 
+SINGLE_TIME_ENERGY_FEE_AGRICULTURAL_ACTIVITIES =165.3096
+SINGLE_TIME_ENERGY_FEE_LIGHTING = 259.5835
+DAYTIME_PERIOD_ENERGY_FEE_INDUSTRY = 309.1933
+DAYTIME_PERIOD_ENERGY_FEE_PUBLIC_PUBLIC_AND_PRIVATE_SECTOR_LOW = 285.8616
+DAYTIME_PERIOD_ENERGY_FEE_PUBLIC_PUBLIC_AND_PRIVATE_SECTOR_HIGH = 285.8616
+DAYTIME_PERIOD_ENERGY_FEE_RESIDENTIAL_LOW = 115.7700
+DAYTIME_PERIOD_ENERGY_FEE_RESIDENTIAL_HIGH = 117.7700
+DAYTIME_PERIOD_ENERGY_FEE_AGRICULTURAL_ACTIVITIES = 170.4822
+PEAK_PERIOD_ENERGY_FEE_INDUSTRIAL = 490.9037
+PEAK_PERIOD_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_LOW = 148.1941
+PEAK_PERIOD_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_HIGH = 458.8843
+PEAK_PERIOD_ENERGY_FEE_RESIDENTIAL_LOW = 208.3645
+PEAK_PERIOD_ENERGY_FEE_RESIDENTIAL_HIGH = 208.3645
+PEAK_PERIOD_ENERGY_FEE_AGRICULTURAL_ACTIVITIES = 280.0325
+NIGHT_PERIOD_ENERGY_FEE_INDUSTRIAL = 162.5171
+NIGHT_PERIOD_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_LOW = 148.1641
+NIGHT_PERIOD_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_HIGH = 148.1941
+NIGHT_PERIOD_ENERGY_FEE_RESIDENTIAL_LOW = 41.7225
+NIGHT_PERIOD_ENERGY_FEE_RESIDENTIAL_HIGH = 41.7225
+NIGHT_PERIOD_ENERGY_FEE_AGRICULTURAL_ACTIVITIES = 77.1882
+UNIT_DISTRIBUTION_FEE_INDUSTRIAL = 64.7998
+UNIT_DISTRIBUTION_FEE_PUBLIC_AND_PRIVATE_SECTOR_LOW = 87.8175
+UNIT_DISTRIBUTION_FEE_PUBLIC_AND_PRIVATE_SECTOR_HIGH = 87.8175
+UNIT_DISTRIBUTION_FEE_RESIDENTIAL_LOW = 85.8883
+UNIT_DISTRIBUTION_FEE_RESIDENTIAL_HIGH = 85.8883
+UNIT_DISTRIBUTION_FEE_RESIDENTIAL_FAMILY_MARTYRS = 58.2521
+UNIT_DISTRIBUTION_FEE_AGRICULTURAL_ACTIVITIES = 72.1579
+UNIT_DISTRIBUTION_FEE_LIGHTING = 84.1099
 ECT_RATE_INDUSTRIAL = 0.01
 ECT_RATE_NOT_INDUSTRIAL = 0.05
 #ECT_RATE_PUBLIC_AND_PRIVATE_SECTOR_LOW = 0.05
@@ -47,13 +47,13 @@ VAT_RATE_PUBLIC_AND_PRIVATE = 0.2
 VAT_RATE_RESIDENTIAL = 0.1
 VAT_RATE_AGRICULTURAL_ACTIVITIES = 0.1
 VAT_RATE_LIGHTING = 0.2
-DAILY_AVARAGE_UPPER_LIMIT_PUBLIC_AND_PRIVATE_SECTOR = 30
-DAILY_AVARAGE_UPPER_LIMIT_FOR_RESIDENTIAL= 8
+
+
 
 #Input validation func
 def validation(x,text):
-    number = float(input(f'{text}'))
-    while number < x or type(x) != float:
+    number = int(input(f'{text}'))
+    while number < x or type(x) != int:
         print('Invalid')
         number = input(f'{text}')
     return number
@@ -69,7 +69,8 @@ def feeCalc(preferredTariff): #The function should have a parameter beacuse the 
     if consumerType == 'Public':
         if preferredTariff == 'Single':
             if limitExceed:
-                totalFee = totalConsumption*SINGLE_TIME_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_HIGH
+                totalFee = 30*SINGLE_TIME_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_LOW + limitExceedAmount*SINGLE_TIME_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_HIGH
+
             else:
                 totalFee = totalConsumption*SINGLE_TIME_ENERGY_FEE_PUBLIC_AND_PRIVATE_SECTOR_LOW
         else:
@@ -84,7 +85,8 @@ def feeCalc(preferredTariff): #The function should have a parameter beacuse the 
             totalFee = totalConsumption * SINGLE_TIME_ENERGY_FEE_RESIDENTIAL_FAMILY_MARTYRS
         if preferredTariff == 'Single':
             if limitExceed:
-                totalFee = totalConsumption*SINGLE_TIME_ENERGY_FEE_RESIDENTIAL_HIGH
+                totalFee = 8*SINGLE_TIME_ENERGY_FEE_RESIDENTIAL_LOW + limitExceedAmount*SINGLE_TIME_ENERGY_FEE_RESIDENTIAL_HIGH
+                
             else:
                 totalFee = totalConsumption*SINGLE_TIME_ENERGY_FEE_RESIDENTIAL_LOW
         else:
@@ -175,15 +177,17 @@ def profitLossCalc(preferredTariff):
     newTotalVAT = taxCalc('VAT',newTotalConsumptionFee)
     newUnitDistribution = taxCalc('Distribution',newTotalConsumptionFee)
     newTotalInvoice = newTotalConsumptionFee + newUnitDistribution + newTotalECT + newTotalVAT
-    difference = (newTotalInvoice - newTotalInvoice)
+    difference = (newTotalInvoice - totalInvoice)
 
     if difference > 0:
         profit = True
+
         profitLossAmount = difference
         print(f'The consumer has made a profit at amount of {profitLossAmount}')
 
     else:
         profit = False
+
         profitLossAmount = -(difference)
         print(f'The consumer has made a loss at amount of {profitLossAmount}')
     
@@ -211,9 +215,12 @@ consumptionCounterResidential = 0
 consumptionCounterPublic = 0
 consumptionCounterAgricultural = 0
 consumptionCounterLightning = 0
+counterMultiLossConsumers = 0
+counterOtherThanMartyrLightning = 0
 while True:
 
     consumerNo = input('Please enter your consumer no, 0 to exit')
+    martyrOrVeteran = False
     if consumerNo == 0:
         break
     consumerType = input('Enter consumer type')
@@ -264,20 +271,23 @@ while True:
     previousDaytime = validation(0,'Please enter previous daytime')
     currentDaytime = validation(previousDaytime,'Please enter current daytime')
     previousPeak = validation(0,'Enter previous peak')
-    currentPeak = validation(previousPeak,'Please enter current')
+    currentPeak = validation(previousPeak,'Please enter current peak')
     previousNight = validation(0,'Please enter previous night')
     currentNight = validation(previousPeak,'Please enter current night')
 
 
     daysBetween = validation(1,'Please enter days between')
-    totalConsumptionOfYear = validation(0,'Please enter total consumption made')
+    totalConsumptionOfYear = validation(0,'Please enter total consumption made in the year')
     totalConsumption = consumption(previousDaytime,currentDaytime) + consumption(previousPeak,currentPeak) + consumption(previousNight,currentNight)
 
+    dailyAverage = totalConsumption/daysBetween
+
     if consumerType == 'Public and Private':
-        if totalConsumption / daysBetween <= 30:
+        if dailyAverage <= 30: 
             limitExceed = False
         else:
             limitExceed = True
+            limitExceedAmount = (30-dailyAverage)*daysBetween
         if preferredTariff == 'Single':
             publicSingle += 1
     elif consumerType == 'Residential':
@@ -285,6 +295,7 @@ while True:
             limitExceed = False
         else:
             limitExceed = True
+            limitExceedAmount = (30-dailyAverage)*daysBetween
 
 
 
@@ -362,8 +373,15 @@ while True:
     print(round(totalVAT,2))
     print(round(totalInvoice,2))
 
+    
     if not(martyrOrVeteran) and consumerType != 'Lightning':
-        profitLossCalc(preferredTariff)
+        profit = profitLossCalc(preferredTariff)
+        
+        counterOtherThanMartyrLightning += 1
+        if preferredTariff == 'Multi' and not(profit):
+            counterMultiLossConsumers += 1
+
+
 
 
     print(totalConsumptionOfYear)
@@ -374,7 +392,7 @@ while True:
     else:
         freeConsumer = True
         print('The consumer deserves to be a free consumer')
-    if consumerType == 'Industrial' and (freeConsumer or totalInvoice > 100000): #Should do a TL conversion
+    if consumerType == 'Industrial' and (totalConsumptionOfYear> 10000 or totalInvoice > 100000): #Should do a TL conversion
         overusageIndustry += 1
 
 
@@ -382,6 +400,7 @@ while True:
 totalConsumers = counterLightning + counterAgricultural + counterIndustrial + counterPublic + counterResidential
 publicMulti = counterPublic - publicSingle
 publicDailyAverage = publicDailyAverageCounter / counterPublic
+
 
 
 #printing all of the information
@@ -418,7 +437,26 @@ print(f'Total electricty consumption for Industrial {consumptionCounterLightning
 
 print(f'Bornova\s total consumption is {allCustomersConsumption}')
 
-print(f'Number of public, private and other {}')
+print(f'Number of public, private and other who prefer single{publicSingle}')
+print(f'Number of public, private and other who prefer multi{publicMulti}')
+print(f'Number of public, private and other single percentage{publicSingle/counterPublic}')
+
+print(f'Number of Industry consumer who is over 10000kWh or 100000TL and their percentage: {overusageIndustry}, {overusageIndustry/counterIndustrial}')
+print(f'Consumer no of the residential type with the highest daily average consumption: {maxResidentialDailyAverageNo}')
+print(f'This consumers daily average electricity usage: {maxResidentialDailyAverage}')
+print(f'This consumers total bill: {maxTotalInvoiceDailyAverage}')
+
+print(f'Consumer no of highest total bill other than residential: {maxTotalInvoiceNo}')
+print(f'Consumer type of this consumer: {maxTotalInvoiceType}')
+print(f'Daily average electricity consumption of this consumer: {maxTotalInvoiceDailyAverage}')
+print(f'Total bill amount of this consumer: {maxTotalInvoice}')
+
+print(f'Total revenue earned by GDZ{allCustomersGDZRevenue}')
+print(f'Total revenue of municipality {allCustomersECTRevenue}')
+print(f'Total revenue of the state {allCustomersVATRevenue}')
+
+print(f'The precentage of those who made a loss {counterMultiLossConsumers/counterOtherThanMartyrLightning*100}')
+
 
 
 
